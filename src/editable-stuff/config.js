@@ -6,30 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Barry",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Shovlin",
+  message: " Software Developer. Problem Solver. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://github.com/barryshovlin",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/barryshovlin/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/barryshovlin/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.twitter.com/barryshovlin32/",
     },
   ],
 };
@@ -51,11 +47,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Hello! I'm Barry Shovlin, a Full Stack Software Developer. I have always enjoyed problem solving and figuring out how things work. After years of working as a freelance musician and in hospitality, I decided to alter my career path and took a leap into Software Development. This was the perfect direction for me, as it has allowed me to use my creative problem solving, leadership, and soft skills while satisfying my need for constant learning.",
 };
 
 // PROJECTS SECTION
@@ -66,9 +61,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "barryshovlin", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["Here-To-Help", "Cooks-In-The-Kitchen", "NSS-Gifter", "WisdomAndGrace"],
 };
 
 // Leadership SECTION
@@ -100,14 +95,12 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "JavaScript", value: 70 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "HTML/CSS", value: 65 },
+    { name: "C#/.NET", value: 70 },
+    { name: "Typescript", value: 40 },
+    { name: "SQL", value: 45 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,24 +119,44 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Wanna talk shop? You can reach me at",
+  email: "bshovlin32@gmail.com",
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Software Developer At ManAlive Studios',// Here Add Company Name
+      date: 'Sept 2021 – Present',
+      message: 'As the sole in-house developer, I am involved in every aspect of application and web development, while collaborating with contract developers to create a quality user experience. Some of the technologies we use are Typescript, NextJS, Docker, Tailwind.'
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Apprentice at Nashville Software School',
+      date: 'Nov 2020 - May 2021',
+      message: 'NSS is an intensive 6 month full stack Software Development Bootcamp fosued on Javascript, ReactJS, C#/.NET, and fundamentals of SQL'
     },
+    {
+      role: 'Taproom Key Manager At Tennessee Brew Works',
+      date: 'Jan 2017 – Mar 2020',
+      message: 'Duties include cash reconciliation, inventory, distribution of tips, stocking, and delegation of staff duties.'
+    },
+    {
+      role: 'New Business Development At Mark Le Clair State Farm',
+      date: 'Jan 2016 - May 2017',
+      message: 'Accquire new business leads through outbound marketing calls, customer referrals, and current customer Insurance and Financial Reviews.'
+    },
+    {
+      role: 'Freelance Musician',
+      date: 'May 2013 - Jan 2016',
+      message: 'Studio guitarist, songwriter, and touring guitarist.'
+    },
+    {
+      role: 'Bachelor of Arts - Berklee College of Music',
+      date: 'Jan 2010 - May 2013',
+      message: 'Four year degree with concentration in Songwriting.'
+    }
   ]
 }
 

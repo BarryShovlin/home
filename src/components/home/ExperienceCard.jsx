@@ -14,6 +14,9 @@ const ExperienceCard = ({data}) => {
                     <br/>
                     {data.date}
                 </p>
+                <p className="text-xs font-thin">
+                    {data.message}
+                    </p>
                 
             </div>
         </Col>
