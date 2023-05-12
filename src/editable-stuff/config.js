@@ -128,9 +128,14 @@ const experiences = {
   heading: "Experience",
   data: [
     {
+      role: 'ITS Consultant at Capgemini',
+      date: 'Jan 2022 - May 2023',
+      message: 'Cloud Engineer with an emphasis in AWS. I have helped clients in multiple ways including migrating to AWS from other public cloud providers or on-prem, leveraging tools sucn as Terraform to build infrastructure, providing review of policies and making recommendations based on best practices, and developing and leading a FinOps team, reducing unallocated costs form 9% - 2%. AWS Certifications: Cloud Practitioner, Developer - Associate, and Solutions Architect - Associate.'
+    },
+    {
       role: 'Software Developer At ManAlive Studios',// Here Add Company Name
-      date: 'Sept 2021 – Present',
-      message: 'As the sole in-house developer, I am involved in every aspect of application and web development, while collaborating with contract developers to create a quality user experience. Some of the technologies we use are Typescript, NextJS, Docker, Tailwind.'
+      date: 'Sept 2021 – Jan 2022',
+      message: 'As the sole in-house developer, I was involved in every aspect of application and web development, while collaborating with contract developers to create a quality user experience. Some of the technologies we used include Typescript, NextJS, Docker, Tailwind.'
     },
     {
       role: 'Apprentice at Nashville Software School',
